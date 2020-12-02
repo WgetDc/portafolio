@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Camilo Oyarzo Desarrollador web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <header  id="header" class="header">
+        <figure>
+            <img src="img/logo.png" alt="">
+        </figure>
+     <h1>Camilo Oyarzo Desarrollador web</h1>
+     <nav>
+        <a href="#Desarrollo">Desarrollo</a>
+        <a href="#Skills">Conocimientos</a>
+        <a href="#contact">Contacto</a>
+        <a href="#footer">Footer</a>
+     </nav>
+
+    </header>
+
+    <div class="banner">
+        <h2>Desarrollo de páginas web responsive</h2>
+    </div>
+
+    <section id="Desarrollo" class="container">
+
+        <div class="box">
+            <h2>Tiendas online</h2>
+            <figure><img src="img/tienda.png" alt="tienda online ecommerce"></figure>
+            <p>Páginas transaccionales con objetivo de la venta de productos y servicios.</p>
+        </div>
+
+        <div class="box">
+            <h2>Landing page</h2>
+            <figure><img src="img/landpage.png" alt="landing"></figure>
+            <p>Páginas de aterrizaje donde queremos destacar un producto, o alguna novedad o promoción.</p>
+        </div>
+
+        <div class="box">
+            <h2>Posicionamiento Web</h2>
+            <figure><img src="img/seo.png" alt="seo Posicionamiento web"></figure>
+            <p>Optimizamos tu pagina web para que sea más visible por los buscadores.</p>
+        </div>
+
+    </section>
+
+    <section class="container">
+        <h1>Portafolio</h1>
+
+        <div class="box">
+    
+        </div>
+
+    </section>
+    <section id="Skills" class="skills">
+        <h1>Mis conocimientos</h1>
+        <figure>
+            <img src="img/html5.png" alt="html html5">
+            <img src="img/css3.png" alt="css css3">
+            <img src="img/js.png" alt="javaScript js">
+            <img src="img/sass.png" alt="sass scss">
+            <img src="img/PhP.png" alt="php">
+            <img src="img/java.png" alt="java">
+            <img src="img/mysql.png" alt="mysql bases datos">
+            <img src="img/git.png" alt="git versiones">
+        </figure>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <div class="invitacion">
+            <figure><img src="img/alien.png" alt="alien"></figure>
+            <p>Hola si estas interesado en trabajar conmigo o que sea parte de tu equipo de desarrollo contácteme, te
+                responderé lo más pronto posible.</p>
+        </div>
+        <form name="Formulario" action="" method="">
+            <div class="Alerta" id="Alerta"></div>
+            <input type="email" id="Email" name="Email" onkeyup="Enter();" placeholder="Correo electrónico" />
+            <input type="text" id="Name" name="Name" onkeyup="Enter();" placeholder="Nombre" />
+            <input type="text" id="Asunto" name="Asunto" onkeyup="Enter();" placeholder="Asunto" />
+            <textarea id="Mensaje" onkeyup="Enter();" placeholder="Deja tu mensaje"></textarea>
+            <div id="Clean"></div>
+            <input onclick="validarformulario();" type="button" name="Enviar" value="Enviar" />
+        </form>
+
+    </section>
+
+ 
+
+
+    <footer id="footer" class="footer">
+        <span>© 2020</span>
+        <a href="https://github.com/camilodw" target="_blank">
+            <figure>
+                <img src="img/github.png" alt="github">
+            </figure>
+        </a>
+    </footer>
+<a href="#header">
+<img id="button" src="img/Btton.png" alt="button subir up">
+</a> 
+    <script src="js/validacion.js"></script>
+    <script src="js/events.js"></script>
+
+</body>
+
+</html>

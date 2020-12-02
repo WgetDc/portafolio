@@ -1,0 +1,27 @@
+.skills {
+    text-align: center;
+    margin: 0 2%;
+}
+
+.skills h2 {
+    font-size: 35px;
+}
+
+.skills img, .skills h2 {
+    margin: 2%;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .skills h2 {
+        font-size: 27px;
+    }
+    .skills img {
+        height: 70px;
+    }
+}
+
+@media (max-width: 576px) {}

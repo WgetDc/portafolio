@@ -1,0 +1,48 @@
+.header h1, .header a {
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    background: rgb(0, 0, 0);
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+justify-content:space-around;
+text-align: center;
+width: 100vw;
+}
+.header nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ nav a{
+     margin-right: 5px;
+     font-size: 20px;
+     text-decoration: none;
+ }
+.header h1 {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+/*End*/
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+  .header{
+      flex-direction: column;
+      justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .header h1 {
+        font-size: 27px;
+    }
+    .header a {
+        font-size: 17px;
+    }
+}

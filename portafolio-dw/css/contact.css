@@ -1,0 +1,113 @@
+.contact {
+   background-color: rgb(18, 76, 90);
+   width: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.contact form {
+   display: flex;
+   flex-shrink: 0;
+   flex-direction: column;
+   align-items: center;
+}
+
+.contact h2 {
+   font-size: 30px;
+   width: 100%;
+}
+.invitacion{
+   width: 30%;
+}
+.invitacion p{
+   width: 60%;
+   margin: 0 auto;
+   color: white;
+   font-size: 17px;
+   margin-bottom: 20px;
+}
+
+.contact input {
+   border: 2px solid black;
+   width: 300px;
+   height: 30px;
+   margin-bottom: 10px;
+   background-color: white;
+}
+
+.contact textarea {
+   border: 2px solid black;
+   width: 300px;
+   height: 80px;
+   resize: none;
+   margin-bottom: 2%;
+}
+
+.contact input[name="Enviar"] {
+   background-color: rgb(142, 212, 36);
+   color: white;
+   font-size: 25px;
+}
+
+.Danger {
+   width: 300px;
+}
+.Danger h2{
+   font-size: 23px;
+   margin-top: -10px;
+}
+
+.Danger a {
+   color: tomato;
+   font-size: 35px;
+   text-decoration: none;
+   margin-right: 5px;
+}
+.Danger a:hover{
+   color: rgb(255, 146, 22);
+}
+
+
+.clean {
+   width: 300px;
+   height: auto;
+}
+
+.clean img {
+   display: block;
+   margin: 0 auto;
+}
+
+.contact input, .clean h2, .contact textarea {
+   font-size: 15px;
+}
+
+.contact h2, .Danger {
+   color: white;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+   .invitacion{width: 100%;
+   }
+   .invitacion p{
+      width: 60%;
+      font-size: 15px;
+   }
+}
+
+@media (max-width: 576px) {
+   .contact h2 {
+      font-size: 25px;
+   }
+   .Danger h2{
+      font-size: 20px;
+   }
+}
