@@ -10,11 +10,11 @@
 .skills img, .skills h2 {
     margin: 2%;
 }
-
+/*
 @media (max-width: 1200px) {}
 
 @media (max-width: 992px) {}
-
+*/
 @media (max-width: 768px) {
     .skills h2 {
         font-size: 27px;
@@ -23,5 +23,6 @@
         height: 70px;
     }
 }
-
+/*
 @media (max-width: 576px) {}
+*/ 
