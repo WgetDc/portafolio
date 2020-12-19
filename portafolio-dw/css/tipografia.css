@@ -4,27 +4,16 @@ font-size: 16px;
 :root {
     /* Variables tipográficas */
           /*14px*/
-    --text-caption: 0.875rem;
+    --text-xs: 0.875rem;
+         /*16px*/
+    --text-base:1rem;     
          /*17px*/
-    --text-note: 1.0625rem;
+    --text-m: 1.0625rem;
         /*20px*/
-    --text-base: 1.25rem;
+    --text-l: 1.25rem;
        /*24px*/
-    --text-subTitle: 1.5rem;
+    --text-xl: 1.5rem;
       /*32px*/
-    --text-title: 2rem;
+    --text-2xl: 2rem;
   }
   
-  @media (max-width: 900px) {
-    :root {
-      /* Variables tipográficas */
-      --text-caption: 12px;
-      --text-note: 14px;
-      --text-base: 16px;
-      --text-subheader: 20px;
-      --text-title: 24px;
-      --text-headline: 36px;
-      --text-display: 48px;
-      --text-jumbo: 60px;
-    }
-  }

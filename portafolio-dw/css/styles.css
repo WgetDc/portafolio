@@ -1,5 +1,7 @@
+/*variables*/
 @import url(tipografia.css);
 @import url(colors.css);
+/*layout*/
 @import url(body.css);
 @import url(header.css);
 @import url(banner.css);

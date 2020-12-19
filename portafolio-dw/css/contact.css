@@ -1,5 +1,5 @@
 .contact {
-   background-color: rgb(18, 76, 90);
+   background-color:var(--colorDarkBlue);
    width: 100%;
    text-align: center;
    display: flex;
@@ -27,7 +27,7 @@
    width: 60%;
    margin: 0 auto;
    color: var(--colorWhite);
-   font-size: 17px;
+   font-size: var(--text-m);
    margin-bottom: 20px;
 }
 
@@ -50,20 +50,20 @@
 .contact input[name="Enviar"] {
    background-color:var(--colorGreenY);
    color:var(--colorWhite);
-   font-size: var(--text-btn);
+   font-size: var(--text-xl);
 }
 
 .Danger {
    width: 300px;
 }
 .Danger h2{
-   font-size: var(--text-subTitle);
+   font-size: var(--text-xl);
    margin-top: -10px;
 }
 
 .Danger a {
    color: var(--colorTomato);
-   font-size: 35px;
+   font-size: var(--text-2xl);
    text-decoration: none;
    margin-right: 5px;
 }
@@ -83,7 +83,7 @@
 }
 
 .contact input, .clean h2, .contact textarea {
-   font-size: var(--text-note);
+   font-size: var(--text-base);
 }
 
 .contact h2, .Danger {
@@ -99,15 +99,15 @@
    }
    .invitacion p{
       width: 60%;
-      font-size: 15px;
+      font-size: var(--text-base);
    }
 }
 
 @media (max-width: 576px) {
    .contact h2 {
-      font-size: 25px;
+      font-size:var(--text-xl);
    }
    .Danger h2{
-      font-size: var();
+      font-size: var(--text-l);
    }
 }
