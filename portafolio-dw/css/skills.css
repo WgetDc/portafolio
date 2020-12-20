@@ -4,7 +4,7 @@
 }
 
 .skills h2 {
-    font-size: 35px;
+    font-size: var(--text-2xl);
 }
 
 .skills img, .skills h2 {
