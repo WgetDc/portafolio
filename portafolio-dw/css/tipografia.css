@@ -13,7 +13,10 @@ font-size: 16px;
     --text-l: 1.25rem;
        /*24px*/
     --text-xl: 1.5rem;
+       /*28px*/
+    --text-title:1.75rem;
       /*32px*/
     --text-2xl: 2rem;
-  }
+
+}
   

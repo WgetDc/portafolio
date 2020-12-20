@@ -17,7 +17,7 @@
 */
 @media (max-width: 768px) {
     .skills h2 {
-        font-size: 27px;
+        font-size: var(--text-title);
     }
     .skills img {
         height: 70px;

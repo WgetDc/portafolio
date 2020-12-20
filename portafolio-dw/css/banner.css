@@ -10,7 +10,7 @@
 
 .banner h2 {
    margin: 0 5%;
-   font-size: 28px;
+   font-size: var(--text-title);
    color: var(--colorWhite);
 }
 /*
