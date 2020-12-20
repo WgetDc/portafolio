@@ -9,4 +9,16 @@ body {
     font-family: "Titillium Web", sans-serif;
     overflow-x: hidden;
     overflow-y: scroll;
+    scrollbar-face-color: #6685CA;
+
 }
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #aab74d;
+    background-image:-webkit-linear-gradient(rgba(255,255,255,.3) 20%,transparent 20%,transparent 40%,rgba(255, 255, 255, 0.3) 40%,rgba(255,255,255,.3) 60%,transparent 60%,transparent 80%,rgba(255, 255, 255, 0.3) 80%);
+    border-radius: 10px;
+  }
+  

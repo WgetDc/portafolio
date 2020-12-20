@@ -45,7 +45,18 @@
    height: 80px;
    resize: none;
    margin-bottom: 2%;
+
 }
+
+.contact textarea::-webkit-scrollbar {
+   width: 12px;
+ }
+ .contact textarea::-webkit-scrollbar-thumb {
+   background-color: #aab74d;
+   background-image:-webkit-linear-gradient(var(--colorWhite) 20%,transparent 20%,transparent 40%,rgba(255, 255, 255, 0.3) 40%,rgba(255,255,255,.3) 60%,transparent 60%,transparent 80%,rgba(255, 255, 255, 0.3) 80%);
+   border-radius: 10px;
+ }
+ 
 
 .contact input[name="Enviar"] {
    background-color:var(--colorGreenY);
